@@ -9,6 +9,7 @@ class MobileBankApiTestV2 {
     @Test
     void shouldReturnDemoAccounts() {
       // Given - When - Then
+      // Проверки
       given()
           .baseUri("http://localhost:9999/api/v1")
       // Выполняемые действия
